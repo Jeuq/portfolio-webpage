@@ -14,7 +14,7 @@ This responsive, single page site displays HTML and CSS concepts addressed in Th
     * interests I have outside of programming
 * a section for contact including links to my email and LinkedIn and GitHub accounts
 
-## Technical Elements Utilized
+## Technical Elements Utilized:
 
 * the following HTML elements:
     *  doctype, html, head, body, meta, title, h1, h2, h3, p, link, ul, ol, img, a, hr
