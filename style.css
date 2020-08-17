@@ -1,5 +1,5 @@
 /* fonts & text formats */
-h2, h3, p, li, a {
+h2, h3, h4, p, li, a {
     font-family: Optima, Segoe, Candara, Calibri;
     color: white
 }
@@ -20,9 +20,9 @@ h2 {
 }
 
 h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    text-transform: uppercase;
     line-height: 2.5vw;
-    text-align: left;
     padding-bottom:0;
 }
 
@@ -30,7 +30,57 @@ p {
     font-size: 1.7vw;
     line-height: 2.5vw;
     text-align: justify;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
+}
+
+/* section footer nav links (h3) */
+.nav-left {
+    float: left;
+    padding-left:20%;
+}
+
+.nav-center {
+    float: left;
+    width:20%;
+    padding-left: 17.5%;
+}
+
+.nav-right {
+    float: right;
+    padding-right:20%;
+}
+
+.nav-left, .nav-right, .nav-center {
+    padding-bottom: 4vw;
+}
+
+.nav-clear {
+    clear: both;
+    padding-bottom:0;
+}
+
+.nav-center-top-section {
+    float: left;
+    width:20%;
+    padding-left: 42%;
+}
+
+/* section footer link styles */
+h3>a:link {
+    color: rgb(247, 219, 187);
+    text-decoration: none;
+}
+
+h3>a:visited {
+    color: rgb(247, 219, 187);
+}
+
+h3>a:hover {
+    color: white;
+}
+
+h3>a:active {
+    color: rgb(189, 157, 121);
 }
 
 /* link styles */ 
